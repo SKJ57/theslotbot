@@ -13,7 +13,7 @@ export default function Home() {
   const [extraRevenue, setExtraRevenue] = useState(0);
 
   // Form State
-  const [formState, setFormState] = useState({ name: '', email: '', industry: '' });
+  const [formState, setFormState] = useState({ name: '', email: '', phone: '', industry: '' });
   const [formStatus, setFormStatus] = useState('idle'); // idle, loading, success, error
 
   useEffect(() => {
@@ -308,6 +308,17 @@ export default function Home() {
                       placeholder="john@example.com"
                       value={formState.email}
                       onChange={(e) => setFormState({...formState, email: e.target.value})}
+                    />
+                  </div>
+                  <div className="form-group">
+                    <label htmlFor="phone">Phone Number</label>
+                    <input 
+                      type="tel" 
+                      id="phone" 
+                      required 
+                      placeholder="+91 XXXXX XXXXX"
+                      value={formState.phone}
+                      onChange={(e) => setFormState({...formState, phone: e.target.value})}
                     />
                   </div>
                   <div className="form-group">

@@ -8,12 +8,16 @@
 
 **theslotbot** is a premium, single-page Next.js web application built for an AI automation agency. It showcases tailored automated workflows, features an interactive ROI Calculator tailored to Indian businesses (using `₹`), and integrates a live database-backed lead generation form with automated email notification alerts.
 
+[![Landing Page](public/images/landingPage.png)]
+
 ---
 
 ## ✨ Key Features
 
 - **🌐 Niche Workflows Swapper**: Seamlessly toggles between custom workflow automation lists for **Diagnostic Labs** (scheduling, report delivery via WhatsApp/Email, Patient CRM) and **Salons & Spas** (no-show reduction, loyalty loops, upsells, staff sync).
 - **🧮 Interactive ROI Calculator**: A real-time calculator that computes hours saved per week and extra revenue generated per month (in `₹`) based on custom inputs for daily appointments and manual booking minutes.
+
+[![ROI Calculator](public/images/ROICalc.png)]
 - **📝 Live Lead Capture Form**: Integrated with a serverless backend to automatically insert incoming leads into a database.
 - **📧 Instant Email Notifications**: Dispatches a clean HTML email notification immediately to the administrator using **Resend** upon lead submission.
 - **💎 Dark Glassmorphic Design**: A premium dark-mode user interface with subtle gold gradients, micro-animations, glow-orbs, and complete mobile responsiveness.
